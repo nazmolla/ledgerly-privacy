@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ledgerly — Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --ink: #1a141f; --muted: #5b5b66; --rule: #e4e4ea;
+    --bg: #ffffff; --accent: #ff7a5c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #f2f2f7; --muted: #a0a0ad; --rule: #2a2a33; --bg: #14121a; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 44rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .35rem; letter-spacing: -.02em; }
+  h2 { font-size: 1.2rem; margin: 2.5rem 0 .6rem; letter-spacing: -.01em; }
+  .sub { color: var(--muted); margin: 0 0 2.5rem; }
+  .lede {
+    font-size: 1.15rem; border-left: 3px solid var(--accent);
+    padding-left: 1rem; margin: 0 0 2rem;
+  }
+  p, li { color: var(--ink); }
+  ul { padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: .9rem;
+  }
+  nav { margin-bottom: 2rem; font-size: .95rem; }
+  nav a { margin-right: 1rem; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="./">Privacy</a><a href="./support.html">Support</a></nav>
+
+  <h1>Support</h1>
+  <p class="sub">Ledgerly for iPhone and iPad</p>
+
+  <p class="lede">
+    Email <a href="mailto:mohamed@nazmi.ca">mohamed@nazmi.ca</a>. Please say which
+    iOS version you are on and what you were doing when it went wrong.
+  </p>
+
+  <h2>Common questions</h2>
+
+  <h2>Where is my data?</h2>
+  <p>
+    On your device, and only there. Ledgerly has no account, no server and no
+    sync — see the <a href="./">privacy policy</a>. If you delete the app, the
+    data goes with it, so back your device up if it matters to you.
+  </p>
+
+  <h2>Receipt reading does nothing</h2>
+  <p>
+    Reading a receipt uses Apple Intelligence, which needs a supported device
+    with it switched on in Settings. Where it is unavailable the review screen
+    still opens and every field can be typed in by hand — nothing is blocked, it
+    just is not filled in for you.
+  </p>
+
+  <h2>What is the "required float"?</h2>
+  <p>
+    How much has to stay in your chequing account so that everything due before
+    your next pay clears. Money going out on a given day is assumed to clear
+    before money coming in on that same day, because in practice it often does —
+    so the figure is deliberately cautious.
+  </p>
+
+  <h2>Budget and the standing plan</h2>
+  <p>
+    The Plan screen is the standing budget: adding, changing or deleting a line
+    there applies to every month. To give a single month its own amount, use the
+    six-month view.
+  </p>
+
+  <h2>Can it read my bank messages automatically?</h2>
+  <p>
+    No — iOS does not allow any app to read your messages, mail or
+    notifications. You can hand a bank alert to Ledgerly yourself: paste it on
+    the transaction form, share it from Mail or Messages, or pass it in with a
+    Shortcuts automation.
+  </p>
+
+  <h2>Reporting a bug</h2>
+  <p>
+    Email is best. If you can, include what you expected to happen and what
+    happened instead. Please do not send screenshots containing real balances
+    unless you are comfortable sharing them.
+  </p>
+
+  <footer>
+    Ledgerly · Support · Updated 21 August 2026
+  </footer>
+</main>
+</body>
+</html>
