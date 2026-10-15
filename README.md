@@ -1,4 +1,4 @@
-# Ledgerly — privacy policy and support
+# Oakledger — privacy policy and support
 
 The two pages the App Store listing points at, served by GitHub Pages.
 
